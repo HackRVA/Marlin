@@ -88,7 +88,7 @@
 #ifndef MOTOR_CURRENT_PWM_RANGE
   #define MOTOR_CURRENT_PWM_RANGE 2000
 #endif
-#define DEFAULT_PWM_MOTOR_CURRENT  {1300, 1300, 1250}
+#define DEFAULT_PWM_MOTOR_CURRENT  {1300, 1300, 480}
 
 //
 // Temperature Sensors
@@ -105,7 +105,7 @@
 #define HEATER_2_PIN        6
 #define HEATER_BED_PIN      4
 
-#define FAN_PIN             8
+//#define FAN_PIN             8
 #define FAN1_PIN            6
 
 //
